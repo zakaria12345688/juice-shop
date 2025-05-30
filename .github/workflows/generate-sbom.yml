@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate SBOM (voorbeeld command)
+      - name: Generate SBOM (voorbeeld)
         run: |
           echo '{"bomFormat": "CycloneDX"}' > sbom.json
 
